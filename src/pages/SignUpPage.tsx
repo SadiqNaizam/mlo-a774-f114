@@ -10,8 +10,6 @@ import Footer from '@/components/layout/Footer';
  * The core functionality is handled by the reusable AuthForm component, configured for sign-up.
  */
 const SignUpPage: React.FC = () => {
-  console.log('SignUpPage loaded');
-
   return (
     <div className="flex flex-col min-h-screen bg-background">
       {/* Main content area that grows to fill available space and centers the form */}
