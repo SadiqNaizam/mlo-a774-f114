@@ -21,7 +21,6 @@ import { Label } from '@/components/ui/label';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
 const ForgotPasswordPage = () => {
-  console.log('ForgotPasswordPage loaded');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -38,7 +37,6 @@ const ForgotPasswordPage = () => {
 
     // In a real application, you would make an API call here.
     // For this example, we'll just simulate a successful submission.
-    console.log('Password reset requested for:', email);
     setMessage(`If an account with the email "${email}" exists, a password reset link has been sent.`);
     setEmail('');
   };
