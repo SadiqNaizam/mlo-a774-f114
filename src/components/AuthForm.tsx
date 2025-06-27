@@ -49,7 +49,6 @@ interface AuthFormProps {
 const AuthForm: React.FC<AuthFormProps> = ({ type }) => {
   const [isLoading, setIsLoading] = React.useState(false);
   const navigate = useNavigate();
-  console.log(`AuthForm loaded in ${type} mode.`);
 
   const isLogin = type === 'login';
   const formSchema = isLogin ? loginSchema : signUpSchema;
@@ -64,7 +63,6 @@ const AuthForm: React.FC<AuthFormProps> = ({ type }) => {
 
   const onSubmit = async (data: FormValues) => {
     setIsLoading(true);
-    console.log('Form submitted with data:', data);
 
     // Simulate an API call
     await new Promise((resolve) => setTimeout(resolve, 1500));
