@@ -12,7 +12,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from '@/components/ui/button';
-import BrandLogo from '@/components/auth/BrandLogo';
+import BrandLogo from '@/components/BrandLogo';
 
 const Header: React.FC = () => {
   console.log('Header loaded');
