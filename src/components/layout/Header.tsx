@@ -15,7 +15,6 @@ import { Button } from '@/components/ui/button';
 import BrandLogo from '@/components/BrandLogo';
 
 const Header: React.FC = () => {
-  console.log('Header loaded');
   const location = useLocation();
 
   // The header content is only shown on authenticated pages like the dashboard.
