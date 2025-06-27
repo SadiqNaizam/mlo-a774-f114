@@ -14,8 +14,6 @@ import {
 } from "@/components/ui/card";
 
 const DashboardPage = () => {
-  console.log('DashboardPage loaded');
-
   return (
     <div className="flex flex-col min-h-screen bg-background">
       {/* The Header component contains user info and logout functionality */}
