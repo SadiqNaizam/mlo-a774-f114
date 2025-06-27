@@ -8,8 +8,6 @@ interface BrandLogoProps {
 }
 
 const BrandLogo: React.FC<BrandLogoProps> = ({ className }) => {
-  console.log('BrandLogo loaded');
-
   return (
     <Link to="/" className={cn("flex items-center gap-2 text-foreground transition-colors hover:text-primary", className)}>
       <Bolt className="h-6 w-6" />
